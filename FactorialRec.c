@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+unsigned int FactorialRec(unsigned int pn);
+
 unsigned int FactorialRec(unsigned int pn)
 {
     if(pn == 0)
